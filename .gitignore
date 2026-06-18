@@ -1,0 +1,39 @@
+# ── Secrets ───────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Databases / data ──────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+backend/medcode.db
+storage/
+uploads/
+
+# ── Node / frontend ───────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.local
+
+# ── OS / editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
